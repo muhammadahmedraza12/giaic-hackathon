@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <div class="personal-info">
+            <h1>Muhammad Ahmed Raza</h1>
+            <p>Email: muhammad.ahmed@cubixlabs.com</p>
+            <p>Phone: (+92) 033-2606-3809</p>
+        </div>
+    </header>
+    
+    <main>
+        <div class="section-container">
+            <h2>Education</h2>
+            <button class="toggle-btn" data-target="education">Hide</button>
+            <section id="education">
+                <p>Matriculation, The Educators,  (2014-2018) </p>
+            </section>  <section id="education">
+                <p>Intermediate, NCR-CET College,  (2018-2020) </p>
+            </section>
+            <section id="education">
+                <p>Bachelor's in Computer Sciences, DHA Suffa University,  (2020-2024)</p>
+            </section>
+        </div>
+        
+        <div class="section-container">
+            <h2>Skills</h2>
+            <button class="toggle-btn" data-target="skills">Hide</button>
+            <section id="skills">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>ReactJS</li>
+                    <li>React Native</li>
+                </ul>
+            </section>
+        </div>
+        
+        <div class="section-container">
+            <h2>Work Experience</h2>
+            <button class="toggle-btn" data-target="work-experience">Hide</button>
+            <section id="work-experience">
+                <p>Web Developer  Intern at InfoaidTech (Aug-2023 - Sep-2023)</p>
+            </section>
+            <section id="work-experience">
+                <p>Web Developer  Intern at Codsoft (Sep-2023 - Nov-2023)</p>
+            </section>
+            <section id="work-experience">
+                <p>Assistant Software Engineer at Cubix (May-2024 - Present)</p>
+            </section>
+        </div>
+    </main>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
